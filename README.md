@@ -34,3 +34,40 @@ Sigue el asistente, revisa el nombre/paquete, iconos y firma. Para Google Play n
 ## Referencias oficiales
 - Guía Android Trusted Web Activities: https://developer.android.com/develop/ui/views/layout/webapps/guide-trusted-web-activities-version2?hl=es-419
 - Registro Play Console: https://support.google.com/googleplay/android-developer/answer/6112435?hl=es-419
+
+{
+  "id": "/",
+  "name": "Novedades Rizo",
+  "short_name": "Rizo",
+  "description": "Tienda en línea de novedades, accesorios, tecnología, moda y hogar.",
+  "lang": "es-MX",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fff9fd",
+  "theme_color": "#743cff",
+  "categories": [
+    "shopping"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
